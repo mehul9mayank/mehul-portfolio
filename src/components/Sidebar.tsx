@@ -52,10 +52,6 @@ export const Sidebar: React.FC = () => {
         </a>
       </div>
 
-      {/* Side Status Indicator */}
-      <div className="writing-mode-vertical text-[10px] font-mono tracking-widest text-slate-500 uppercase rotate-180">
-        SYS.READY // V2.0
-      </div>
     </aside>
   );
 };

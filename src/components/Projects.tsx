@@ -38,7 +38,7 @@ export const Projects: React.FC = () => {
     <section id="projects" className="py-24 border-b border-[#272730] relative">
       <div className="flex items-center gap-4 mb-12">
         <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 uppercase">
-          03. FEATURED PROJECTS
+            FEATURED PROJECTS
         </h2>
         <div className="flex-1 h-[1px] bg-[#272730]" />
       </div>
@@ -56,7 +56,7 @@ export const Projects: React.FC = () => {
               {/* Header */}
               <div className="flex justify-between items-start mb-4">
                 <span className="font-mono text-xs text-amber-400 uppercase tracking-widest">
-                  SYS.PROJECT 0{idx + 1}
+                  SYS.PROJECT {idx + 1}
                 </span>
                 <i className="fas fa-folder-open text-slate-500 group-hover:text-amber-400 transition-colors text-xl" />
               </div>

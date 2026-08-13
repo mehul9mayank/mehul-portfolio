@@ -13,7 +13,7 @@ export const Education: React.FC = () => {
     <section id="education" className="py-24 border-b border-[#272730] relative">
       <div className="flex items-center gap-4 mb-12">
         <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 uppercase">
-          05. EDUCATION & CERTIFICATIONS
+            EDUCATION & CERTIFICATIONS
         </h2>
         <div className="flex-1 h-[1px] bg-[#272730]" />
       </div>

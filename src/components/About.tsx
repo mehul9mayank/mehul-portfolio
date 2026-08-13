@@ -2,16 +2,16 @@ import React from 'react';
 
 export const About: React.FC = () => {
   const stats = [
-    { value: '2+', label: 'Years Hands-On Experience', color: 'text-amber-400' },
-    { value: '100+', label: 'Active Application Users', color: 'text-emerald-400' },
-    { value: '10+', label: 'Projects Engineered', color: 'text-cyan-400' },
+    { value: '1.5+', label: 'Years Hands-On Experience', color: 'text-amber-400' },
+    { value: '10+', label: 'Active Application Users', color: 'text-emerald-400' },
+    { value: '6', label: 'Projects Engineered', color: 'text-cyan-400' },
   ];
 
   return (
     <section id="about" className="py-24 border-b border-[#272730] relative">
       <div className="flex items-center gap-4 mb-12">
         <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 uppercase">
-          02. ABOUT ME
+            ABOUT ME
         </h2>
         <div className="flex-1 h-[1px] bg-[#272730]" />
       </div>

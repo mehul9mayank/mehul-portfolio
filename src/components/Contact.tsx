@@ -21,7 +21,7 @@ export const Contact: React.FC = () => {
     <section id="contact" className="py-24 relative">
       <div className="flex items-center gap-4 mb-12">
         <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 uppercase">
-          06. GET IN TOUCH
+          GET IN TOUCH
         </h2>
         <div className="flex-1 h-[1px] bg-[#272730]" />
       </div>

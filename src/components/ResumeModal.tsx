@@ -90,7 +90,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                 <div className="text-right space-y-1 text-[11px] text-slate-400 font-mono">
                   <div>+91-8102208365</div>
                   <div>mehul09mayank@gmail.com</div>
-                  <div className="text-amber-400">linkedin.com/in/mehul09 | github.com/mehul09</div>
+                  <div className="text-amber-400">linkedin.com/in/mehul-mayank44 | github.com/mehul9mayank</div>
                 </div>
               </div>
 
@@ -184,8 +184,9 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                 </h2>
                 <ul className="space-y-1 text-slate-300">
                   <li><strong className="text-slate-100">Languages:</strong> Java, JavaScript, TypeScript, HTML, CSS, SQL</li>
-                  <li><strong className="text-slate-100">Frameworks:</strong> React.js, Next.js, Node.js, Express.js, Spring Boot, Spring Data JPA, Thymeleaf, Tailwind CSS</li>
-                  <li><strong className="text-slate-100">Databases:</strong> MySQL, H2 | <strong className="text-slate-100">Tools & APIs:</strong> Git, GitHub, Postman, REST APIs, OAuth2, Gemini API, Amadeus API</li>
+                  <li><strong className="text-slate-100">Frameworks:</strong> React.js, Next.js, Node.js, Express.js, Spring Boot, Spring Data JPA, Tailwind CSS</li>
+                  <li><strong className="text-slate-100">Databases:</strong> MySQL, H2 </li>
+                  <li><strong className="text-slate-100">Tools & APIs:</strong> Git, GitHub, Postman, REST APIs, OAuth2, Gemini API, Amadeus API</li>
                   <li><strong className="text-slate-100">Core CS:</strong> Data Structures & Algorithms, OOP, Computer Networks, Agile</li>
                   <li><strong className="text-slate-100">Soft Skills:</strong> Problem Solving, Team Collaboration, Adaptability</li>
                 </ul>

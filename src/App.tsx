@@ -44,17 +44,10 @@ export const App: React.FC = () => {
         </div>
       </main>
 
-      <div className="fixed bottom-6 right-6 z-50 flex items-end gap-3">
-        <button
-          onClick={() => setResumeOpen(true)}
-          className="bg-[#121216] border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black transition-all duration-300 px-4 py-3 shadow-2xl flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-wider group shadow-amber-400/20 hover:scale-105"
-          title="Preview & Download Mehul's Resume"
-        >
-          <i className="fas fa-file-pdf text-base text-amber-400 group-hover:text-black transition-colors" />
-          <span>RESUME</span>
-        </button>
-
-        <FloatingMusicPlayer />
+      <div className="pointer-events-none fixed inset-x-0 bottom-6 z-50 flex justify-end pr-4 sm:pr-6">
+        <div className="pointer-events-auto flex items-end">
+          <FloatingMusicPlayer />
+        </div>
       </div>
 
       {/* Interactive Resume Preview & Download Modal */}

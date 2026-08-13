@@ -17,7 +17,8 @@ export const Skills: React.FC = () => {
     'System Design',
     'Operating Systems',
     'Computer Networks',
-    'WebSockets',
+    'Database Management',
+    'Cloud Computing',
     'RESTful APIs',
   ];
 
@@ -25,7 +26,7 @@ export const Skills: React.FC = () => {
     <section id="skills" className="py-24 border-b border-[#272730] relative">
       <div className="flex items-center gap-4 mb-12">
         <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 uppercase">
-          04. TECHNICAL SKILLS
+              TECHNICAL SKILLS
         </h2>
         <div className="flex-1 h-[1px] bg-[#272730]" />
       </div>
@@ -68,7 +69,7 @@ export const Skills: React.FC = () => {
           <div className="absolute bottom-0 left-0 w-32 h-32 bg-violet-500/10 rounded-tr-full -ml-4 -mb-4 blur-2xl pointer-events-none" />
 
           <div className="flex items-center gap-4 mb-8 relative z-10">
-            <h3 className="font-display text-2xl sm:text-3xl font-bold tracking-[0.14em] text-violet-400 uppercase">
+            <h3 className="font-display text-2xl sm:text-3xl font-bold tracking-[0.14em] text-amber-400 uppercase">
               Neural Concepts
             </h3>
             <div className="flex-1 h-[1px] bg-violet-500/30" />

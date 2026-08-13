@@ -57,8 +57,8 @@ export const FloatingMusicPlayer: React.FC = () => {
 
       <div className="flex flex-col items-end gap-2">
         {volumeOpen && (
-          <div className="rounded-2xl border border-violet-500/30 bg-[#0f0f14]/95 px-3 py-3 shadow-2xl backdrop-blur-xl">
-            <div className="mb-2 font-mono text-[10px] uppercase tracking-wider text-violet-300">
+          <div className="rounded-2xl border border-amber-500/30 bg-[#0f0f14]/95 px-3 py-3 shadow-2xl backdrop-blur-xl">
+            <div className="mb-2 font-mono text-[10px] uppercase tracking-wider text-amber-300">
               Volume: {Math.round(volume * 100)}%
             </div>
             <input
@@ -68,7 +68,7 @@ export const FloatingMusicPlayer: React.FC = () => {
               step="0.01"
               value={volume}
               onChange={(e) => handleVolumeChange(Number(e.target.value))}
-              className="w-32 accent-violet-400"
+              className="w-32 accent-amber-400"
               aria-label="Adjust music volume"
             />
           </div>
@@ -77,7 +77,7 @@ export const FloatingMusicPlayer: React.FC = () => {
         <div className="flex items-center gap-2">
           <button
             onClick={() => setVolumeOpen((open) => !open)}
-            className="h-11 w-11 flex items-center justify-center border-2 border-violet-500 bg-[#121216] text-violet-300 shadow-2xl shadow-violet-500/20 transition-all duration-300 hover:bg-violet-500 hover:text-white"
+            className="h-11 w-11 flex items-center justify-center border-2 border-amber-500 bg-[#121216] text-amber-300 shadow-2xl shadow-amber-400/20 transition-all duration-300 hover:bg-amber-400 hover:text-black"
             title="Adjust volume"
             aria-label="Adjust volume"
           >
@@ -86,15 +86,19 @@ export const FloatingMusicPlayer: React.FC = () => {
 
           <button
             onClick={handleToggle}
-            className={`flex items-center gap-3 border-2 px-4 py-3 shadow-2xl transition-all duration-300 font-mono text-xs font-bold uppercase tracking-wider hover:scale-105 ${
+            className={`flex h-11 w-11 items-center justify-center border-2 shadow-2xl transition-all duration-300 hover:scale-105 ${
               isPlaying
-                ? 'bg-violet-500 border-violet-300 text-white shadow-violet-500/20'
-                : 'bg-[#121216] border-violet-500 text-violet-300 shadow-violet-500/20 hover:bg-violet-500 hover:text-white'
+                ? 'bg-amber-400 border-amber-300 text-black shadow-amber-400/20'
+                : 'bg-[#121216] border-amber-500 text-amber-300 shadow-amber-400/20 hover:bg-amber-400 hover:text-black'
             }`}
             title={isPlaying ? 'Pause music' : 'Play music'}
+            aria-label={isPlaying ? 'Pause music' : 'Play music'}
           >
-            <i className={`fas ${isPlaying ? 'fa-pause' : 'fa-play'} text-base`} />
-            <span>{isPlaying ? 'MUSIC ON' : 'MUSIC OFF'}</span>
+            <img
+              src="/sound.png"
+              alt="Sound"
+              className={`h-5 w-5 object-contain ${isPlaying ? 'opacity-100' : 'opacity-90'}`}
+            />
           </button>
         </div>
       </div>

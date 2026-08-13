@@ -20,7 +20,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
 
         {/* Hero Title with Glitch Styling */}
         <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tight text-slate-100 mb-6 leading-none glitch-wrapper">
-          HI, I'M <span className="text-amber-400 glitch-text" data-text="MEHUL">MEHUL</span> MAYANK
+          <span className="text-amber-400 glitch-text" data-text="MEHUL">MEHUL</span> MAYANK
         </h1>
 
         {/* Subtitle */}
@@ -41,12 +41,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
             onClick={onOpenResume}
             className="px-8 py-4 bg-transparent text-slate-100 border border-[#272730] font-mono text-xs font-bold uppercase tracking-wider hover:border-amber-400 hover:text-amber-400 transition-all duration-300 flex items-center gap-2"
           >
-            <i className="fas fa-file-pdf text-amber-400" /> PREVIEW & DOWNLOAD RESUME
+            <i className="fas fa-file-pdf text-amber-400" /> RESUME
           </button>
         </div>
       </div>
 
-      {/* Hero Image Component featuring Mehul's local photo */}
+      {/* Hero Image Component featuring my local photo */}
       <div className="hidden lg:flex flex-1 justify-center items-center z-10">
         <div className="relative group">
           {/* Cyber Neon Back Glow */}
